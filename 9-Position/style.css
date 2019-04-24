@@ -8,27 +8,10 @@ section{
 
 section div{
     position: absolute;
-    width: 100px;
+    top: 50%;
+    left: 50%;
+    width: 200px;
     height: 50px;
     background: white;
-}
-
-.c{
-    right: 20px;
-    bottom: 20px;
-}
-
-.d{
-    bottom: 20px;
-    left: 20px;
-}
-
-.a{
-    top:20px;
-    left: 20px;
-}
-
-.b{
-    top: 20px;
-    right: 20px;
+    transform: translate(-50%,-50%)
 }
