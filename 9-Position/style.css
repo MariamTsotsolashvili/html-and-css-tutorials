@@ -1,24 +1,24 @@
-.message{
-    width: 300px;
-    border: 2px solid lightgrey;
+.divider{
+    position: relative;
+    height: 100;
+}
+.divider::before{
     position: absolute;
-    background: lightpink;
+    top: 50%;
+    left: 0;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background:lightgrey;
+    transform: translateY(-50%);
 }
-
-.message a{
-    top: 15px;
-    right: 15px;
+span{
     position: absolute;
-    color: grey;
-    text-decoration: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: white;
+    padding: 0 10px 0;
 }
 
-.message p {
-    margin: 0 0 10 px;
-    font-weight: bold;
-}
-
-.message span{
-    display: inline-block;
-    max-width: 290px;
-}
