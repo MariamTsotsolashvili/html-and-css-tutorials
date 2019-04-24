@@ -1,0 +1,34 @@
+div, header, footer {
+    height: 150px;
+    margin-bottom: 30px;
+    background: blue;
+}
+
+header{
+    width: 600px;
+}
+footer{
+    width: 600px;
+}
+.col1, .col2{
+    width: 285px;
+}
+
+.col2{
+    float: right;
+}
+.col1{
+    float: left;
+}
+.col3{
+    width: 400px;
+    clear: both;
+    margin: 0 auto 30px;
+}
+main{
+    width: 600px;
+    margin: 0 auto;
+}
+header,footer{
+    width: 100%;
+}
