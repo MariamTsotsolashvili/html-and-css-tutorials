@@ -1,0 +1,24 @@
+.divider{
+    position: relative;
+    height: 100;
+}
+.divider::before{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background:lightgrey;
+    transform: translateY(-50%);
+}
+span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: white;
+    padding: 0 10px 0;
+}
+

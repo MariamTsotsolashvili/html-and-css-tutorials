@@ -30,6 +30,25 @@ main{
     float: left;
     width: 100%;
 }
-.row-2{
-    min-height:330px;
+.row{
+    width: 100%;
+}
+.cell{
+    float: left;
+    min-height:150px;
+    margin-bottom: 30px;
+    background: blue;
+    margin-right: 30px;
+}
+.cell:last-of-type{
+    margin-right: 0;
+}
+.col-1{
+    width: 180px;
+}
+.col-2{
+    width: 390px;
+}
+.col-3{
+    width: 100%;
 }
