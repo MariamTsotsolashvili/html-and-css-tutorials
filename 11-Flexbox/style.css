@@ -23,36 +23,36 @@ footer{
 }
 .row{
     display: flex;
-}
-
-.row div{
-    background:gray;
     height: 150px;
-}
-.col-1{
-    margin-right: 30px;
-}
-.col-1, .col-2{
-    flex-grow: 1;
     margin-bottom: 30px;
 }
-.second-row{
-    justify-content: center;
-}
-.col-3{
-    width: 200px;
-}
-.col-2{
+
+.col-1, .col-2{
     margin-right: 30px;
 }
 .col-1,.col-3{
     flex-grow: 1;
-    margin-bottom: 30px;
 }
 .col-2{
     flex-grow: 2;
 }
 
 .row div:last-child{
+    margin-right: 0;
+}
+.multi{
+    display: flex;
+    flex-direction: column;
+}
+
+.multi .row:last-child {
+    margin-bottom: 0;
+}
+
+.solid {
+    background: gray;
+}
+
+.col-3 {
     margin-right: 0;
 }
